@@ -1,10 +1,16 @@
 import random
 
-num = random.randint(0, 1000)
 
-if(num < 500):
-  print(num)
-  print("this is a small number")
-if(num > 500):
-  print(num)
-  print("this is a big number")
+while(True):
+  grade = int(input("what is your grade: "))
+
+  if (grade >= 90):
+    print("you got an A")
+
+  elif (grade >= 75):
+    print("you got a B")
+
+  elif (grade >= 50):
+    print("you got an F")
+  else:
+    print("Meet me after class")
